@@ -1,21 +1,19 @@
 const data = {
   carts: require("../models/carts.json"),
-  setCart: (data) => {
-    this.carts = data;
-  },
+  setCart: (data) => {this.carts = data;},
 };
 
 const getCarts = (req, res) => {
   res.json(data.carts)
 };
 
-const getCart = () => {};
+const getCart = (req, res) => {};
 
-const createCart = () => {};
+const createCart = (req, res) => {};
 
-const updateCart = () => {};
+const updateCart = (req, res) => {};
 
-const deleteCart = () => {};
+const deleteCart = (req, res) => {};
 
 module.exports = {
   getCart,
