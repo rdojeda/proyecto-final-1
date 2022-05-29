@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "timestamp": 3423490890,
+    "name": "Buzo Lotto",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta dignissim convallis. Phasellus non elementum leo. ",
+    "code": "A1234GTF",
+    "price": 9900,
+    "photo": "https://res.cloudinary.com/ojedaweb/image/upload/v1647978263/buzo-lotto-smart.jpg",
+    "stock": 12
+  },
+  {
+    "id": 2,
+    "timestamp": 1234906943,
+    "name": "Buzo Adidas",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta dignissim convallis. Phasellus non elementum leo. ",
+    "code": "A1224MJU",
+    "price": 14500,
+    "photo": "https://res.cloudinary.com/ojedaweb/image/upload/v1647978263/buzo-adidas-essentials-logo.jpg",
+    "stock": 15
+  },
+  {
+    "id": 3,
+    "timestamp": 1234567890,
+    "name": "Buzo Nike",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta dignissim convallis. Phasellus non elementum leo. ",
+    "code": "A1456KLG",
+    "price": 7800,
+    "photo": "https://res.cloudinary.com/ojedaweb/image/upload/v1647978263/buzo-nike-sportswear-essentials.jpg",
+    "stock": 17
+  },
+  {
+    "id": 4,
+    "timestamp": 9876543210,
+    "name": "Campera Puma",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta dignissim convallis. Phasellus non elementum leo. ",
+    "code": "A7890SRE",
+    "price": 12700,
+    "photo": "https://res.cloudinary.com/ojedaweb/image/upload/v1647978248/campera-puma-run-favorite.jpg",
+    "stock": 21
+  }
+]
