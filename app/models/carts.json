@@ -1,59 +1,29 @@
 [
   {
     "id": 1,
-    "timestamp": 7890345621,
-    "products": [
-      {
-        "id_prod": 1,
-        "timestamp": 3423490890,
-        "name": "Buzo Lotto",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta dignissim convallis. Phasellus non elementum leo. ",
-        "code": "A1234GTF",
-        "price": 9900,
-        "photo": "https://res.cloudinary.com/ojedaweb/image/upload/v1647978263/buzo-lotto-smart.jpg",
-        "stock": 12
-      },
-      {
-        "id_prod": 2,
-        "timestamp": 1234906943,
-        "name": "Buzo Adidas",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta dignissim convallis. Phasellus non elementum leo. ",
-        "code": "A1224MJU",
-        "price": 14500,
-        "photo": "https://res.cloudinary.com/ojedaweb/image/upload/v1647978263/buzo-adidas-essentials-logo.jpg",
-        "stock": 15
-      }
+    "timestamp": 1234567890123,
+    "products": 
+    [
+       {
+         "id": 1,
+         "timestamp": 3423490890,
+         "name": "Buzo Lotto",
+         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta dignissim convallis. Phasellus non elementum leo. ",
+         "code": "A1234GTF",
+         "price": 9900,
+         "photo": "https://res.cloudinary.com/ojedaweb/image/upload/v1647978263/buzo-lotto-smart.jpg",
+         "stock": 12
+       }
     ]
   },
   {
     "id": 2,
-    "timestamp": 2343567800,
-    "products": [
-      {
-        "id_prod": 3,
-        "timestamp": 1234906943,
-        "name": "Buzo Nike",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta dignissim convallis. Phasellus non elementum leo. ",
-        "code": "A1456KLG",
-        "price": 7800,
-        "photo": "https://res.cloudinary.com/ojedaweb/image/upload/v1647978263/buzo-nike-sportswear-essentials.jpg",
-        "stock": 17
-      }
-    ]
+    "timestamp": 4567890123098,
+    "products": []
   },
   {
     "id": 3,
-    "timestamp": 1230345689,
-    "products": [
-      {
-        "id_prod": 3,
-        "_timestamp": 1234567890,
-        "_name": "Buzo Nike",
-        "_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta dignissim convallis. Phasellus non elementum leo. ",
-        "_code": "A1456KLG",
-        "_price": 7800,
-        "_photo": "https://res.cloudinary.com/ojedaweb/image/upload/v1647978263/buzo-nike-sportswear-essentials.jpg"
-      }
-    ]
+    "timestamp": 4567123409843,
+    "products": []
   }
 ]

@@ -4,18 +4,24 @@ const {
   getCart,
   getCarts,
   createCart,
-  updateCart,
-  deleteCart
+  addProduct,
+  deleteCart,
+  deleteCartProduct
 } = require("../controllers/carts");
+
+const validationRoute = require("../helpers/security");
 
 router.get("/", getCarts);
 
 router.get("/:id", getCart);
 
-router.post("/", createCart);
+router.post("/", validationRoute, createCart);
 
-router.put("/:id", updateCart);
+router.post("/:id", validationRoute, addProduct);
 
-router.delete("/:id", deleteCart);
+router.delete("/:id", validationRoute, deleteCart);
+
+router.delete("/:id/productos:id", validationRoute, deleteCartProduct)
+
 
 module.exports = router;

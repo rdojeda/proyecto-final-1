@@ -8,15 +8,16 @@ const {
     deleteProduct
 } = require('../controllers/products')
 
+const validationRoute = require('../helpers/security')
 
 router.get('/', getProducts)
 
 router.get('/:id', getProduct)
 
-router.post('/', createProduct)
+router.post('/',validationRoute, createProduct)
 
-router.put('/:id', updateProduct)
+router.put('/:id', validationRoute, updateProduct)
 
-router.delete('/:id', deleteProduct)
+router.delete('/:id',validationRoute, deleteProduct)
 
 module.exports = router
