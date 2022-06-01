@@ -50,7 +50,15 @@ const addProduct = (req, res) => {
   }
 
 const deleteCartProduct = (req, res) => {
-  
+  const id = req.params.id
+  const id_prod = req.params.id_prod
+  if (id && id_prod) {
+    data.carts.products.splice(id_prod, 1)
+    res.status(200).send(`Producto eliminado del carrito ${id}`)
+  } else {
+    return res.status(500).send(`Error al eliminar el producto`)
+  }
+ 
 }
 
 

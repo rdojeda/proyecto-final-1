@@ -21,7 +21,7 @@ router.post("/:id", validationRoute, addProduct);
 
 router.delete("/:id", validationRoute, deleteCart);
 
-router.delete("/:id/productos:id", validationRoute, deleteCartProduct)
+router.delete("/:id/productos:id_prod", validationRoute, deleteCartProduct)
 
 
 module.exports = router;
